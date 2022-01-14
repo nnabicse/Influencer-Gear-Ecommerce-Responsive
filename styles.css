@@ -76,3 +76,19 @@ nav{
     padding-right: 10px;
 }
 
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.footer-info{
+    text-align: center;
+    color: whitesmoke;
+    line-height: 10px;
+}
+
