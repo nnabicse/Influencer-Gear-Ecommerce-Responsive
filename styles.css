@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-items ul li{
+    margin-right: 10px;
+}
