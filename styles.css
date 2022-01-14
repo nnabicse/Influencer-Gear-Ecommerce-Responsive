@@ -52,3 +52,27 @@ nav{
     padding: 10px;
 }
 
+.second-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.second-part-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    justify-content: center;
+    
+}
+
+.rating{
+    display: flex;
+}
+
+.rating .stars{
+    padding-right: 10px;
+}
+
