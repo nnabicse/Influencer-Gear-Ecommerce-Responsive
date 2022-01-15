@@ -36,6 +36,10 @@ nav{
     
 }
 
+.first-part-desc{
+    text-align: justify;
+}
+
 .first-part-image{
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
@@ -59,6 +63,11 @@ nav{
     color: whitesmoke;
     text-decoration: none;
     padding: px;
+}
+
+.brand-logos{
+    margin-top: 40px;
+
 }
 
 .brands{
@@ -114,7 +123,7 @@ nav{
     padding: 10px;
 }
 
-.fas{
+.star{
     color: orange;
 }
 
@@ -166,6 +175,16 @@ footer{
     padding: 50px;
 }
 
+.footer-info i{
+    padding: 10px;
+    background-color: #22213C;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
 
 /* mobile view  start*/
 @media only screen and (max-width: 600px) {
@@ -215,7 +234,7 @@ footer{
 
     .brands{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         justify-content: center;
         align-items: stretch;
         padding: 10px;
@@ -262,7 +281,118 @@ footer{
 /* mobile view  end*/
 
 /* tab view start */
+@media only screen and (min-width: 601px) and (max-width: 991px){
 
+
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    /* .nav-items{
+        display: none;
+    } */
+
+    .header-title h2{
+        font-size: 25px;
+
+    }
+
+
+    .container{
+        max-width: 100%px;
+        margin: 0 auto;
+        padding: 20px;
+    
+    }
+
+    .first-part{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .first-part-image{
+        background-size: 100%;
+        
+    }
+
+    .first-part-image img{
+        width: 100%;
+    }
+
+    .brand img{
+        width: 70%;
+
+    }
+
+    .brands{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-evenly;
+        align-items:center;
+        padding: 10px;
+        border-top:2px solid black ;
+        border-bottom:2px solid black;
+
+    }
+
+    .brand-logos{
+        margin-top: 30px;
+    }
+
+    .brand img{
+        width: 70%;
+    }
+
+
+    .second-part-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        
+    }
+
+    #second-part-button{
+        padding-top: 20px;
+        padding-left: 450px;
+    }
+
+    .third-part{
+        width: 100%;
+    }
+    .third-items{
+
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .third-title h1{
+
+        font-size: 18px;
+     }
+
+     .footer-info{
+         font-size: 80%;
+     }
+
+     .footer{
+         margin-top: 5px;
+     }
+
+
+
+
+
+
+
+
+}
 
 
 
